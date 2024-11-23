@@ -1,27 +1,33 @@
+/*general*/
 * {
     padding: 0px;
     margin: 0px;
 }
 
+body {
+    color: #5f6368;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
 /*header*/
 #head {
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
     margin-left: 30px ;
+    margin-bottom: 20px;
     align-items: center;
 }
 
 
 .logo {
-    width: 200px;
-    height: 40px;
+    width: 160px;
+    height: 30px;
     cursor: pointer;
 }
 
 ul {
     display: flex;
-    align-items: center;
     flex: 2;
 }
 
@@ -55,8 +61,48 @@ ul {
 }
 
 /*cuerpo*/
+#dispositivos {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
 
+.img_dispo {
+    width: 20px;
+    margin-right: 10px;
+}
 
+.dispo_tall {
+    width: 15px;
+    margin-right: 10px;
+}
 
+.dispositivo {
+    height: 10px;
+    font-size: 15px;
+    margin-right: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    color: #5f6368;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #e9eaec;
+}
+
+#container {
+    margin-left: 80px;
+}
+
+#container p {
+    font-size: 15px;
+}
+
+h1 {
+    color: black;
+}
 
 
