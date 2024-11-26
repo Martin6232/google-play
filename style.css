@@ -7,8 +7,9 @@
 body {
     color: #5f6368;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
+
 /*header*/
 #head {
     display: flex;
@@ -24,6 +25,7 @@ body {
     width: 160px;
     height: 30px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 ul {
@@ -80,8 +82,8 @@ ul {
 
 .dispositivo {
     height: 10px;
-    font-size: 15px;
-    margin-right: 8px;
+    font-size:18px;
+    margin-right: 10px;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -93,8 +95,14 @@ ul {
     border-color: #e9eaec;
 }
 
+.text {
+    margin-left: 20px;
+}
+
+ /*aqui va al diseño de los juegos que aparecen en la pagina*/
+
 #container {
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 #container p {
@@ -105,4 +113,42 @@ h1 {
     color: black;
 }
 
+h4 {
+    color: black;
+}
+#line {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#juego {
+    width: 425px;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.juego_info {
+    display:flex;
+    flex-flow: wrap;
+}
+
+.text_game p {
+    margin-top: 5px;
+}
+.demostracion {
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.logo_game {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-right: 20px;
+    width: 75px;
+}
