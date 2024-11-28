@@ -100,7 +100,7 @@ ul {
     cursor: default;
 }
 
- /*aqui va al diseño de los juegos que aparecen en la pagina*/
+/*aqui va al diseño de los juegos que aparecen en la pagina*/
 
 #container {
     margin-left: 60px;
@@ -157,16 +157,10 @@ h4 {
 
 /*anuncios*/
 #anuncio {
-    margin-top: 80px;
+    margin-top: 60px;
     width: 1335px;
+    height: 371px;
     padding: 15px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-#anuncio2 {
-    margin-top: 80px;
-    width: 1335px;
-    height: 338px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -175,3 +169,42 @@ h4 {
     width: 100%;
     border-radius: 20px;
 }
+
+#anuncio2 {
+    margin-top: 35px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: url(img/anuncio2.png);
+    display: flex;
+    align-items: end;
+}
+
+.contenedor {
+    width: 1335px;
+    height: 371px;
+    padding: 15px;
+}
+
+.info_anuncio {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    color: #ffff;
+}
+
+.descargar {
+    margin-left: 40px;
+    display: flex;
+    flex-flow: column;
+}
+
+.btn_descargar {
+    background-color: #28feaf;
+    border-radius: 20px;
+    height: 40px;
+    color: black;
+    cursor: pointer;
+}
+
