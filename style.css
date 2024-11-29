@@ -33,10 +33,15 @@ ul {
     flex: 2;
 }
 
-.opciones {
+li {
     cursor: pointer;
     list-style-type: none;
     margin: 20px;
+    transition: 0.3s;
+}
+
+.opciones:hover {
+    color: black;
 }
 
 .fun_img {
@@ -55,11 +60,16 @@ ul {
     width: 40px;
     background-color: #ffff;
     border-radius: 90px;
-    justify-content: center;
+    align-items: center;
     margin: 5px;
     padding: 5px;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.funciones:hover {
+    background-color: #e9eaec;
 }
 
 /*cuerpo*/
@@ -93,6 +103,11 @@ ul {
     border-radius: 20px;
     border-style: solid;
     border-color: #e9eaec;
+    transition: 0.3s;
+}
+
+.dispositivo:hover {
+    background-color: #ecedf0;
 }
 
 .text {
@@ -101,7 +116,7 @@ ul {
     font-size: 20px;
 }
 
-/*aqui va al diseño de los juegos que aparecen en la pagina*/
+/*aqui va al diseño de los juegos que aparecen en la pagina y los anuncios*/
 
 #container {
     margin-left: 60px;
@@ -132,6 +147,11 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#juego:hover {
+    background-color: #ecedf0;
 }
 
 .juego_info {
@@ -164,6 +184,11 @@ h4 {
     padding: 15px;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.3S;
+}
+
+#anuncio:hover {
+    background-color: #ecedf0;
 }
 
 .anuncio {
@@ -171,8 +196,9 @@ h4 {
     border-radius: 20px;
 }
 
+
+
 #anuncio2 {
-    margin-top: 35px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -183,7 +209,7 @@ h4 {
 }
 
 #anuncio3{
-    margin-top: 35px;
+
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -197,7 +223,16 @@ h4 {
     width: 1335px;
     height: 371px;
     padding: 15px;
-    margin-bottom: 60px;
+    margin-top: 35px;
+    display: flex;
+    align-items:start;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    transition: 0.3S;
+}
+
+#contenedor:hover {
+    background-color: #e9eaec;
 }
 
 .info_anuncio {
@@ -229,3 +264,51 @@ h4 {
     cursor: pointer;
 }
 /*footer*/
+
+footer {
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+#foot {
+    display: flex;
+    padding-top: 40px;
+    margin-top: 30px;
+    box-shadow: 1px -3px 3px -4px #5f6368;
+}
+
+.alaing {
+    flex-direction: column;
+    font-size: 14px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.pay {
+    margin-bottom: 20px;
+    color: #808694;
+}
+
+.one {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.two {
+    flex: 3;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.info {
+    font-size: 11px;
+    flex: 1;
+}
+
+.cont_lang {
+    font-size: 12px;
+}
